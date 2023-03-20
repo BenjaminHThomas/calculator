@@ -36,8 +36,18 @@ body{
 .display{
     background-color: whitesmoke;
     flex-grow: 0.40;
+    flex-wrap: nowrap;
     margin: 10px;
+    height: 20px;
     border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all; /*wrap text to a new line, brekaing whole strings in two*/
+    overflow-y: auto; /*adds vertical scroll bar when veritcal overflow */
 }
 
 .row{
