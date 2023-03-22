@@ -1,6 +1,7 @@
 body{
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
 }
 
 .calcBody,
@@ -43,9 +44,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: x-large;
+    padding-left: 20px;
 
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     word-break: break-all; /*wrap text to a new line, brekaing whole strings in two*/
     overflow-y: auto; /*adds vertical scroll bar when veritcal overflow */
